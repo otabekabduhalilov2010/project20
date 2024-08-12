@@ -1,0 +1,153 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(https://ak.picdn.net/shutterstock/videos/1060643227/thumb/1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+
+    a {
+
+        @media (max-width: 1030px) {
+            flex-direction: column;      
+            
+         }
+
+
+
+        text-decoration: none;
+        color: white;
+
+
+      
+
+    }
+}
+
+.logo {
+    @media (max-width: 1030px) {
+        height: 50px;       
+        
+     }
+}
+
+
+
+
+.menu {
+
+
+
+
+    @media (max-width: 1030px) {
+        flex-direction: column;;       
+        
+     }
+    
+    display: flex;
+    
+    gap: 30px;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.box {
+
+color: white;
+
+ 
+
+   
+
+p {
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+
+    h1 {
+
+        
+
+
+
+        @media (max-width: 1050px) {
+            font-size: 40px;       
+            
+         }
+
+
+        @media (max-width: 1200px) {
+             font-size: 48px;
+            
+         }
+        font-size: 56px;
+    }
+
+img {
+    
+}
+
+}
+
+.button1 {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    height: 50px;
+    width: 100px;
+   
+}
+
+.button2 {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(216, 101, 216);
+    border-radius: 30px;
+    height: 50px;
+    width: 100px;
+  
+}
+
+.wraper {
+
+    padding-top: 100px;
+    display: flex;
+    justify-content:center;
+    gap: 150px;
+
+
+    @media (max-width: 970px) {
+        flex-direction: column;      
+        
+     }
+
+     @media (max-width: 950px) {
+        text-align: center;     
+        
+     }
+
+
+}
+
+.photo1 {
+ width: 600px;
+ @media (max-width: 1200px) {
+    width: 500px;       
+    
+ }
+
+
+
+
+
+
+}
